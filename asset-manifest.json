@@ -1,12 +1,24 @@
 {
   "files": {
-    "main.css": "/prashantuppar-portfolio/static/css/main.fc25fe1a.css",
-    "main.js": "/prashantuppar-portfolio/static/js/main.04771c20.js",
+    "main.css": "/prashantuppar-portfolio/static/css/main.f00635f4.css",
+    "main.js": "/prashantuppar-portfolio/static/js/main.3472dcd6.js",
     "static/js/787.ecc39371.chunk.js": "/prashantuppar-portfolio/static/js/787.ecc39371.chunk.js",
+    "static/media/certificate1.jpg": "/prashantuppar-portfolio/static/media/certificate1.906d73af582dabe1aabb.jpg",
     "static/media/spam_detection.png": "/prashantuppar-portfolio/static/media/spam_detection.7b3621015dcfe8e88c2d.png",
     "static/media/EDA.jpg": "/prashantuppar-portfolio/static/media/EDA.65212fcc09794e4627ea.jpg",
     "static/media/Thumbs.db": "/prashantuppar-portfolio/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/ems.png": "/prashantuppar-portfolio/static/media/ems.d636778b2487ebec9e73.png",
+    "static/media/certificate3.jpg": "/prashantuppar-portfolio/static/media/certificate3.f82b503ff1293f5f8a5f.jpg",
+    "static/media/certificate2.jpg": "/prashantuppar-portfolio/static/media/certificate2.6be16b2332c3b9a704f4.jpg",
+    "static/media/certificate7.jpg": "/prashantuppar-portfolio/static/media/certificate7.5b308821778698ec0596.jpg",
+    "static/media/certificate11.jpg": "/prashantuppar-portfolio/static/media/certificate11.a9d362a9f8bc3f820fcb.jpg",
+    "static/media/certificate10.jpg": "/prashantuppar-portfolio/static/media/certificate10.5465a48695521a186b36.jpg",
+    "static/media/certificate5.jpg": "/prashantuppar-portfolio/static/media/certificate5.f7a59ae67a602a772861.jpg",
+    "static/media/certificate9.jpg": "/prashantuppar-portfolio/static/media/certificate9.2a07551fb0b594e38dea.jpg",
+    "static/media/certificate8.jpg": "/prashantuppar-portfolio/static/media/certificate8.47eaafae3541b317302b.jpg",
+    "static/media/certificate4.jpg": "/prashantuppar-portfolio/static/media/certificate4.6ef557bf23edf2922250.jpg",
+    "static/media/certificate12.jpg": "/prashantuppar-portfolio/static/media/certificate12.1dd71d4f139abee523c8.jpg",
+    "static/media/certificate13.jpg": "/prashantuppar-portfolio/static/media/certificate13.bb1ef44068bb23a07715.jpg",
     "static/media/eeg.png": "/prashantuppar-portfolio/static/media/eeg.89c57a551f0e297c644f.png",
     "static/media/home.jpg": "/prashantuppar-portfolio/static/media/home.f05972c824160dacbd11.jpg",
     "static/media/IICS.png": "/prashantuppar-portfolio/static/media/IICS.c8fd3d8b5e78a54955a5.png",
@@ -16,12 +28,12 @@
     "static/media/Prashantuppar_resume.pdf": "/prashantuppar-portfolio/static/media/Prashantuppar_resume.37656106e6bda00c9a75.pdf",
     "static/media/stair_glider.jpg": "/prashantuppar-portfolio/static/media/stair_glider.090fc5946104517608bd.jpg",
     "index.html": "/prashantuppar-portfolio/index.html",
-    "main.fc25fe1a.css.map": "/prashantuppar-portfolio/static/css/main.fc25fe1a.css.map",
-    "main.04771c20.js.map": "/prashantuppar-portfolio/static/js/main.04771c20.js.map",
+    "main.f00635f4.css.map": "/prashantuppar-portfolio/static/css/main.f00635f4.css.map",
+    "main.3472dcd6.js.map": "/prashantuppar-portfolio/static/js/main.3472dcd6.js.map",
     "787.ecc39371.chunk.js.map": "/prashantuppar-portfolio/static/js/787.ecc39371.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc25fe1a.css",
-    "static/js/main.04771c20.js"
+    "static/css/main.f00635f4.css",
+    "static/js/main.3472dcd6.js"
   ]
 }
