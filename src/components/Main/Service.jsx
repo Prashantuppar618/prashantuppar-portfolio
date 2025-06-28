@@ -1,8 +1,5 @@
 import React from 'react';
-import '../../pages/Service/ServicesPage.css';
-import { Link } from 'react-router-dom';
-import { ButtomGet } from '../ButtomGet/ButtomGet';
-
+import './service.css';
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
 

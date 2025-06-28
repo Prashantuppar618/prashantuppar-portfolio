@@ -8,7 +8,7 @@ import './App.css';
 /* Pages */
 import Home from "./pages/Home/HomePage";
 import About from "./pages/About/AboutPage";
-import Services from "./pages/Service/ServicesPage";
+import Services from "./pages/Service/Certificates";
 import Project from "./pages/Project/ProjectPage";
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
 

@@ -63,6 +63,10 @@ const Header = () => {
                         defaultMessage='Projects'
                     />
                 </Link>
+                <NavLink to="/service">
+                    <FormattedMessage id='Certifications' defaultMessage='Certifications' />
+                </NavLink>
+
                 <Link to="contactos" spy={true} offset={-150} href="#contactos">
                     <FormattedMessage
                         id='contact'

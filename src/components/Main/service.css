@@ -1,65 +1,59 @@
-
-
-
-
-/********************** Servicios **********************/
-
-.servicios .row{
+servicios .row {
     text-align: center;
 }
 
-.servicios .row .columns{
+.servicios .row .columns {
     box-shadow: var(--box-shadow);
     border: var(--borde);
     border-bottom: 1rem solid var(--white);
     margin: 0.5rem;
 }
 
-.servicios .row .columns:hover{
+.servicios .row .columns:hover {
     background: var(--black);
     color: var(--light-color);
     border-bottom: 1rem solid var(--black);
 }
 
-.servicios .row i{
+.servicios .row i {
     font-size: 3rem;
     margin-bottom: 2rem;
     color: var(--black);
 }
 
-.servicios .row .columns:hover i{
+.servicios .row .columns:hover i {
     color: var(--light-color);
 }
 
-.servicios .row .columns:hover h3{
+.servicios .row .columns:hover h3 {
     color: var(--white);
 }
 
 
 /********************** Services seccion **********************/
 
-.site-services .row{
+.site-services .row {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     text-align: center;
-    justify-content: center!important;
+    justify-content: center !important;
     margin: 3rem auto;
 }
 
-.site-services .row .columns{
+.site-services .row .columns {
     box-shadow: var(--box-shadow);
     border: var(--borde);
     margin: 0;
-    transform: scale(0.9)!important;
+    transform: scale(0.9) !important;
     justify-content: center;
 }
 
 
-.site-services .columns h3{
+.site-services .columns h3 {
     text-transform: uppercase;
 }
 
-.site-services .columns .sub-title{
+.site-services .columns .sub-title {
     font-size: 1.5rem;
     color: var(--black);
 }
@@ -70,14 +64,14 @@
     top: -.7em;
 }
 
-.site-services .columns .numero{
+.site-services .columns .numero {
     font-size: 5rem;
     font-weight: bold;
     line-height: 1;
     color: var(--black);
 }
 
-.site-services .columns .ul-cards-services{
+.site-services .columns .ul-cards-services {
     margin: 0 0 2rem 0;
 }
 
@@ -95,23 +89,23 @@
 }
 
 
-.site-services .row .recomendado{
+.site-services .row .recomendado {
     background: var(--black);
-    transform: scale(1.1)!important;
+    transform: scale(1.1) !important;
 }
 
 .site-services .row .recomendado .sub-title,
-.site-services .row .recomendado .numero{
+.site-services .row .recomendado .numero {
     color: var(--white);
 }
 
 .site-services .row .recomendado li,
-.site-services .row .recomendado li i{
+.site-services .row .recomendado li i {
     color: var(--light-color);
 }
 
-.heading-services.btn-services{
-    display: none!important;
+.heading-services.btn-services {
+    display: none !important;
 }
 
 
@@ -126,7 +120,7 @@
     background: #fff;
     margin-bottom: 1.5rem;
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .preguntas .accordion-container .accordion:last-child {
@@ -143,7 +137,7 @@
 
 .preguntas .accordion-container .accordion.active .accordion-heading i {
     -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    transform: rotate(180deg);
     color: var(--white);
 }
 
@@ -158,12 +152,12 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 1rem;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: var(--white);
     cursor: pointer;
 }
@@ -183,22 +177,22 @@
     text-transform: none;
     display: none;
     -webkit-animation: fadeIn .2s linear;
-            animation: fadeIn .2s linear;
+    animation: fadeIn .2s linear;
 }
 
 
 /********************** Media Q **********************/
 
 @media (max-width: 760px) {
-    .site-services .row{
+    .site-services .row {
         grid-template-columns: 90%;
     }
-    
-    .site-services .row .columns{
-        transform: scale(1)!important;
+
+    .site-services .row .columns {
+        transform: scale(1) !important;
     }
 
-    .site-services .row .recomendado{
-        transform: scale(1)!important;
+    .site-services .row .recomendado {
+        transform: scale(1) !important;
     }
 }

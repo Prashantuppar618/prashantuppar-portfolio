@@ -28,8 +28,6 @@ const Contact = () => (
                 steps={[
                     'Gmail', 1500,
                     'WhatsApp', 1500,
-                    'Instragram', 1500,
-                    'Telegram', 1500,
                     'Linkedin', 1500,
                     'Github', 1500,
                 ]}
@@ -75,7 +73,7 @@ const Contact = () => (
                     Linkedin
                 </div>
             </a>
-            <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="https://github.com/Prashantuppar618/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>

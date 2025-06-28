@@ -1,33 +1,33 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import MensajeIngles from './../language/en.json';
 import MensajeEspañol from './../language/es.json';
-import {IntlProvider} from 'react-intl';
+import { IntlProvider } from 'react-intl';
 
 const langContext = React.createContext();
 
 
-const LangProvider = ({children}) => {
+const LangProvider = ({ children }) => {
     let localePorDefecto;
-	let mensajesPorDefecto;
-	const lang = localStorage.getItem('lang');
+    let mensajesPorDefecto;
+    const lang = localStorage.getItem('lang');
 
-	if(lang){
-		localePorDefecto = lang
+    if (lang) {
+        localePorDefecto = lang
 
-		if(lang === 'es-ES'){
-			mensajesPorDefecto = MensajeEspañol;
-		} else if(lang === 'en-US'){
-			mensajesPorDefecto = MensajeIngles;
-		} else {
-			localePorDefecto = 'en-US'
-			mensajesPorDefecto = MensajeIngles;
-		}
-	}
+        if (lang === 'es-ES') {
+            mensajesPorDefecto = MensajeEspañol;
+        } else if (lang === 'en-US') {
+            mensajesPorDefecto = MensajeIngles;
+        } else {
+            localePorDefecto = 'en-US'
+            mensajesPorDefecto = MensajeIngles;
+        }
+    }
 
     const [mensaje, setMensaje] = useState(mensajesPorDefecto);
     const [locale, setLocale] = useState(localePorDefecto);
 
-    const selectLanguage = (language) =>{
+    const selectLanguage = (language) => {
         switch (language) {
             case 'es-ES':
                 setMensaje(MensajeEspañol);
@@ -46,7 +46,7 @@ const LangProvider = ({children}) => {
         }
     }
     return (
-        <langContext.Provider value={{selectLanguage: selectLanguage}}>
+        <langContext.Provider value={{ selectLanguage: selectLanguage }}>
             <IntlProvider locale={locale} messages={mensaje}>
                 {children}
             </IntlProvider>
@@ -54,4 +54,4 @@ const LangProvider = ({children}) => {
     );
 };
 
-export {LangProvider, langContext};
+export { LangProvider, langContext };

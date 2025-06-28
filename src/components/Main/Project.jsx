@@ -50,7 +50,28 @@ const Project = () => {
                         },
                     }}
                     className='proyectos-slider mySwiper'
-                >   <SwiperSlide className='caja'>
+                >
+                    <SwiperSlide className='caja'>
+                        <img
+                            src={proyectImg(`./EDA.jpg`)}
+                            alt='proyectos'
+                        />
+                        <div className="content">
+                            <h3>Student Narcission Analysis</h3>
+                            <p>
+                                EDA/ML project
+                            </p>
+                            <p className="tecnologias">
+                                <span> -</span> Python
+                                <span> -</span> Seaborn
+                                <span> -</span> Pandas
+
+                            </p>
+                            <a href="" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/Prashantuppar618/student-Narcissism-prediction.git" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='caja'>
                         <img
                             src={proyectImg(`./eeg.png`)}
                             alt='proyectos'
@@ -198,26 +219,6 @@ const Project = () => {
                             </p>
                             <a href="https://github.com/Prashantuppar618/atmega32-stair-glider.git/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/Prashantuppar618/atmega32-stair-glider.git" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./EDA.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Student Narcission Analysis</h3>
-                            <p>
-                                EDA/ML project
-                            </p>
-                            <p className="tecnologias">
-                                <span> -</span> Python
-                                <span> -</span> Seaborn
-                                <span> -</span> Pandas
-
-                            </p>
-                            <a href="" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Prashantuppar618/student-Narcissism-prediction.git" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                 </Swiper>
