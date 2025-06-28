@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prashantuppar-portfolio/static/css/main.fc25fe1a.css",
-    "main.js": "/prashantuppar-portfolio/static/js/main.d3a314d0.js",
+    "main.js": "/prashantuppar-portfolio/static/js/main.bec5802a.js",
     "static/js/787.ecc39371.chunk.js": "/prashantuppar-portfolio/static/js/787.ecc39371.chunk.js",
     "static/media/Thumbs.db": "/prashantuppar-portfolio/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/proyecto-app-17-com.png": "/prashantuppar-portfolio/static/media/proyecto-app-17-com.1cacb50e9e33a1ece5a4.png",
@@ -58,11 +58,11 @@
     "static/media/proyecto-app-2.jpg": "/prashantuppar-portfolio/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/prashantuppar-portfolio/index.html",
     "main.fc25fe1a.css.map": "/prashantuppar-portfolio/static/css/main.fc25fe1a.css.map",
-    "main.d3a314d0.js.map": "/prashantuppar-portfolio/static/js/main.d3a314d0.js.map",
+    "main.bec5802a.js.map": "/prashantuppar-portfolio/static/js/main.bec5802a.js.map",
     "787.ecc39371.chunk.js.map": "/prashantuppar-portfolio/static/js/787.ecc39371.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc25fe1a.css",
-    "static/js/main.d3a314d0.js"
+    "static/js/main.bec5802a.js"
   ]
 }
