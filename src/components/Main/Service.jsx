@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../pages/Service/ServicesPage.css'
+import '../../pages/Service/ServicesPage.css';
 import { Link } from 'react-router-dom';
 import { ButtomGet } from '../ButtomGet/ButtomGet';
 
@@ -20,7 +20,7 @@ const Service = () => (
                 <h3>
                     <FormattedMessage
                         id='design'
-                        defaultMessage='ADesign UX/UIboult me'
+                        defaultMessage='Design UX/UI'
                     />
                 </h3>
                 <p>
@@ -46,70 +46,65 @@ const Service = () => (
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
-                <i className="fas fa-chart-line"></i>
+                <i className="fas fa-chart-bar"></i>
                 <h3>
                     <FormattedMessage
-                        id='marketing'
-                        defaultMessage='Digital marketing'
+                        id='data-analysis'
+                        defaultMessage='Data Analysis'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
-                        id='marketing-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        id='data-analysis-info'
+                        defaultMessage='Extracting insights from structured and unstructured data using tools like Python, Excel, and visualization libraries to support data-driven decision making.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="500">
-                <i className="fas fa-wrench"></i>
+                <i className="fas fa-brain"></i>
                 <h3>
                     <FormattedMessage
-                        id='maintenance'
-                        defaultMessage='Web maintenance'
+                        id='ai-ml'
+                        defaultMessage='AI/ML Model Building'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
-                        id='maintenance-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        id='ai-ml-info'
+                        defaultMessage='Building and training machine learning and deep learning models to solve real-world problems like prediction, classification, and pattern recognition.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="600">
-                <i className="fas fa-search"></i>
+                <i className="fas fa-network-wired"></i>
                 <h3>
                     <FormattedMessage
-                        id='seo'
-                        defaultMessage='Web positioning (SEO)'
+                        id='network-design'
+                        defaultMessage='Network Design & Analysis'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
-                        id='seo-info'
-                        defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
+                        id='network-design-info'
+                        defaultMessage='Designing efficient network topologies, analyzing performance, and proposing secure, scalable solutions tailored to organizational infrastructure needs.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="700">
-                <i className="fas fa-tachometer-alt"></i>
+                <i className="fas fa-microchip"></i>
                 <h3>
                     <FormattedMessage
-                        id='optimization'
-                        defaultMessage='Website optimization'
+                        id='hardware-coding'
+                        defaultMessage='Hardware Coding (Arduino & Microcontrollers)'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
-                        id='optimization-info'
-                        defaultMessage='Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website'
+                        id='hardware-coding-info'
+                        defaultMessage='Programming embedded systems like Arduino, ESP32, and microcontrollers to create IoT prototypes, automation systems, and electronic solutions.'
                     />
                 </p>
             </div>
-        </div>
-        <div className='portafolio-btn'>
-            <Link to="/service">
-                <ButtomGet/>
-            </Link>
         </div>
     </section>
 );
