@@ -40,17 +40,6 @@ const About = () => (
                     <li>
                         <p>
                             <span>
-                                <FormattedMessage
-                                    id='years'
-                                    defaultMessage='Age:'
-                                />
-                            </span>
-                            20
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <span>
                                 Hobbies:{" "}
                             </span>
                             Chess, Story telling, Reading and Programming
