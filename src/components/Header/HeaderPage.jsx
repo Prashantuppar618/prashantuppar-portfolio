@@ -61,10 +61,6 @@ const HeaderPage = () => {
                         defaultMessage='Projects'
                     />
                 </NavLink>
-                <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div>
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

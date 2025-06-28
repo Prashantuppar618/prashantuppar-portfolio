@@ -3,24 +3,24 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 export default function ParticleHeaderBg() {
-    const particlesInit = async (main) => {
-        console.log(main);
-    
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        await loadFull(main);
-      };
-    
-      const particlesLoaded = (container) => {
-        console.log(container);
-      };
-      return (
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          className="particles-2-css"
+  const particlesInit = async (main) => {
+    console.log(main);
+
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(main);
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+  return (
+    <Particles
+      id="tsparticles"
+      init={particlesInit}
+      loaded={particlesLoaded}
+      className="particles-2-css"
       options={{
         background: {
           position: "50% 50%",
@@ -32,7 +32,7 @@ export default function ParticleHeaderBg() {
           enable: false
         },
         interactivity: {
-          
+
           modes: {
             bubble: {
               distance: 400,
@@ -141,139 +141,51 @@ export default function ParticleHeaderBg() {
                 sides: 5,
               },
               image: [
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-                  width: 20,
-                  height: 20,
-                },
+                { src: "https://cdn.worldvectorlogo.com/logos/arduino-1.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", width: 20, height: 20 },
+                { src: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg", width: 20, height: 20 },
+                { src: "https://seaborn.pydata.org/_images/logo-mark-lightbg.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg", width: 20, height: 20 },
+                { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", width: 20, height: 20 }
               ],
+
               images: [
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-                  width: 20,
-                  height: 20,
-                },
+                { src: "https://cdn.worldvectorlogo.com/logos/arduino-1.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", width: 20, height: 20 },
+                { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", width: 20, height: 20 },
+                { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", width: 20, height: 20 },
+                { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", width: 20, height: 20 },
+                { src: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg", width: 20, height: 20 },
+                { src: "https://seaborn.pydata.org/_images/logo-mark-lightbg.svg", width: 20, height: 20 },
+                { src: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg", width: 20, height: 20 },
+                { src: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg", width: 20, height: 20 },
               ],
+
             },
             type: "image",
           },
