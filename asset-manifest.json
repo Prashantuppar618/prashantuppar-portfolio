@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prashantuppar-portfolio/static/css/main.f00635f4.css",
-    "main.js": "/prashantuppar-portfolio/static/js/main.3472dcd6.js",
+    "main.js": "/prashantuppar-portfolio/static/js/main.95430f0b.js",
     "static/js/787.ecc39371.chunk.js": "/prashantuppar-portfolio/static/js/787.ecc39371.chunk.js",
     "static/media/certificate1.jpg": "/prashantuppar-portfolio/static/media/certificate1.906d73af582dabe1aabb.jpg",
     "static/media/spam_detection.png": "/prashantuppar-portfolio/static/media/spam_detection.7b3621015dcfe8e88c2d.png",
@@ -29,11 +29,11 @@
     "static/media/stair_glider.jpg": "/prashantuppar-portfolio/static/media/stair_glider.090fc5946104517608bd.jpg",
     "index.html": "/prashantuppar-portfolio/index.html",
     "main.f00635f4.css.map": "/prashantuppar-portfolio/static/css/main.f00635f4.css.map",
-    "main.3472dcd6.js.map": "/prashantuppar-portfolio/static/js/main.3472dcd6.js.map",
+    "main.95430f0b.js.map": "/prashantuppar-portfolio/static/js/main.95430f0b.js.map",
     "787.ecc39371.chunk.js.map": "/prashantuppar-portfolio/static/js/787.ecc39371.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f00635f4.css",
-    "static/js/main.3472dcd6.js"
+    "static/js/main.95430f0b.js"
   ]
 }
